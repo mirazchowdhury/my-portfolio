@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation styles */
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    /* same line e ante */
+    justify-content: space-between;
+    /* content gular mddhe space create korbe */
+    margin: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    /* ul gula ke ek line e anbe */
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    /* list item er nicher underline gula ke gayeb kore dibe */
+    margin-left: 50px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 36px;
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-title {
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-sub-title {
+    color: var(--dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+.banner-description {
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section title */
+.about {
+    margin-top: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+}
+
+.section-title {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-description {
+    color: var(--dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
